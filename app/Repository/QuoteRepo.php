@@ -6,7 +6,8 @@ use App\Models\Quote;
 
 class QuoteRepo implements IQuoteRepo {
 
-    public function all() {
+    public function all(): array 
+    {
         // some database records using Eloquent
         $quotes = [
             new Quote([

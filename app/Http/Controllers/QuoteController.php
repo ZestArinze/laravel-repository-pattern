@@ -14,8 +14,8 @@ class QuoteController extends Controller
         $this->quoteRepo = $quoteRepo;
     }
 
-    public function index() {
-
+    public function index() 
+    {
         return response()->json([
             'status' => true,
             'message' => 'Query OK.',

@@ -4,7 +4,8 @@ namespace App\Repository;
 
 class QuoteRepoFile implements IQuoteRepo {
 
-    public function all() {
+    public function all(): array 
+    {
         // some file data
         $quotes = [
             [

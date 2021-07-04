@@ -7,5 +7,5 @@ interface IQuoteRepo {
     /**
      * get all records
      */
-    public function all();
+    public function all(): array;
 }
